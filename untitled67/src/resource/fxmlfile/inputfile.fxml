@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contorler.ControlInputFIle">
+   <children>
+      <JFXTextArea fx:id="intputii" focusColor="#944141" layoutX="172.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="435.0" prefWidth="476.0" promptText="input program" style="-fx-background-color: #944141;" text="&#10;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></JFXTextArea>
+      <ImageView fitHeight="435.0" fitWidth="167.0" layoutX="1.0" opacity="0.53" pickOnBounds="true">
+         <image>
+            <Image url="@../image/goli.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="19.0" layoutY="359.0" onAction="#submit" style="-fx-text-fill: #000;" styleClass="login" stylesheets="@../style/welcom.css" text="submit" textFill="#544c4c">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

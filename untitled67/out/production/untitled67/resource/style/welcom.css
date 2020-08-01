@@ -1,0 +1,22 @@
+{
+    -fx-primary:#2a2e37;
+    -fx-secondary:#ffff8d;
+    -fx-primarytext:#b2b2b2;
+}
+.root{
+    -fx-background-color:-fx-primary;
+}
+.glyph-icon{
+    -fx-fill: -fx-primarytext;
+}
+.button{
+    -fx-text-fill: -fx-primarytext;
+}
+.login.button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+.login.button.hover{
+    -fx-background-color: #53505f;
+}

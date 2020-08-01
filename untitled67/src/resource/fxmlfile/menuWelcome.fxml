@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="annch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="420.0" style="-fx-background-color: #20120f;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contorler.Controler">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="420.0" opacity="0.18" pickOnBounds="true">
+         <image>
+            <Image url="@../image/tg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="96.0" layoutY="33.0" text="welcome " textFill="#eae0e0">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="131.0" layoutY="107.0" text="to Compiler Project" textFill="#e5e1e1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="start" layoutX="106.0" layoutY="179.0" onAction="#loadMain" prefHeight="54.0" prefWidth="206.0" ripplerFill="#53505f" styleClass="login" stylesheets="@../style/welcom.css" text="start" textAlignment="CENTER" textFill="#eae2e2" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exit" layoutX="106.0" layoutY="265.0" onAction="#exit" prefHeight="54.0" prefWidth="206.0" ripplerFill="#53505f" styleClass="login" stylesheets="@../style/welcom.css" text="exit" textAlignment="CENTER" textFill="#eae2e2" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contorler.Result">
+   <children>
+      <JFXTextArea fx:id="result" layoutX="-2.0" layoutY="57.0" prefHeight="194.0" prefWidth="600.0" />
+      <Label alignment="CENTER" layoutX="-2.0" prefHeight="58.0" prefWidth="608.0" style="-fx-background-color: #000;" text="result" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="ok" layoutX="487.0" layoutY="251.0" onAction="#okbut" prefHeight="45.0" prefWidth="110.0" styleClass="login" stylesheets="@../style/welcom.css" text="ok" textAlignment="CENTER" textFill="#2e0202">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
